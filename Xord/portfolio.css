@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(37, 37, 37);
+    height: 800px;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 0%;
+    width: 30%;
+    margin-left: 30%;
+}
+
+.navbar {
+    text-align: center;
+    border-top: 1px solid #1f2e39;
+    border-bottom: 1px solid #1f2e39;
+    padding: 30px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ccc;
+    margin: 0 40px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar a.active {
+    color: #565656;
+}
+
+/* New styles for cards */
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    text-align: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-logo {
+    background-color: #000;
+    border: 1px solid #00b894;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 170px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+.project-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #94a3b8;
+}

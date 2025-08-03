@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(37, 37, 37);
+    height: 800px;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 0%;
+    width: 30%;
+    margin-left: 30%;
+}
+
+.navbar {
+    text-align: center;
+    border-top: 1px solid #1f2e39;
+    border-bottom: 1px solid #1f2e39;
+    padding: 30px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ccc;
+    margin: 0 40px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar a.active {
+    color: #565656;
+}
+
+.team-section {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px 20px;
+    color: white;
+}
+
+.member-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.photo-box {
+    width: 180px;
+    height: 180px;
+    background-color: #ffffff15;
+    border-radius: 8px;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.role {
+    color: #c4c4c4;
+    font-size: 18px;
+    margin: 8px 0 12px 0;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin-right: 15px;
+    color: white;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #00acee;
+}
